@@ -103,7 +103,7 @@ public class RandomView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         if (oneBitmap != null) {
-            Log.d("TGA", " TGA onDraw: one");
+            Log.d("TGA", " TGA onDraw:one");
             if (p1.x + oneBitmap.getWidth() > width) {
                 p1.x = width - oneBitmap.getWidth();
             }

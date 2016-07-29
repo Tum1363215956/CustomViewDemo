@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="percentRelativeLayout">
+        <attr name="layout_width_percent" format="float"></attr>
+        <attr name="layout_height_percent" format="float"></attr>
+    </declare-styleable>
+</resources>

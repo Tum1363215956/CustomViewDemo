@@ -12,10 +12,8 @@
         <activity android:name=".animation.acitivity.PointEvaluatorActivity" />
         <activity android:name=".listview.ListViewDemo1" />
         <activity android:name=".listview.downdraglistview.DownDragLayout" />
-        <activity android:name=".draggridview.DragActivity">
-
-        </activity>
-        <activity android:name=".popwindow.PopActivity"></activity>
+        <activity android:name=".draggridview.DragActivity"></activity>
+        <activity android:name=".popwindow.PopActivity" />
         <activity android:name=".meituan.MeiTuanActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".percentlayout.PercentLayoutActivity"></activity>
     </application>
 
 </manifest>
